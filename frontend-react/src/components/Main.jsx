@@ -1,0 +1,22 @@
+import React from "react";
+import Button from "./Button";
+
+const Main = () => {
+  return (
+    <>
+      <div className="container">
+        <div className="p-5 text-center bg-light-dark rounded-3 mt-4">
+          <h1 className="mb-3 text-light">
+            Welcome to Stock Prediction Portal
+          </h1>
+          <p className="text-light lead">
+            Predict stock prices with our advanced AI models
+          </p>
+          <Button text="Get Started" class="btn-outline-info" />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Main;
