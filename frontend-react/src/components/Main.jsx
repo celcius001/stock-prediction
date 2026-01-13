@@ -11,7 +11,11 @@ const Main = () => {
           <p className="text-light lead">
             Predict stock prices with our advanced AI models
           </p>
-          <Button text="Get Started" class="btn-outline-info" />
+          <Button
+            text="Get Started"
+            class="btn-outline-info"
+            url="/dashboard"
+          />
         </div>
       </div>
     </>
